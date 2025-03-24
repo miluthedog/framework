@@ -9,3 +9,6 @@ class layer:
     
     def leakyReLU(self, function, alpha=0.01):
         return np.maximum(alpha * function, function)
+
+    def sigmoid(self, function):
+        return 1/(1 + np.exp(-function))
