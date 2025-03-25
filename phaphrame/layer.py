@@ -12,3 +12,6 @@ class layer:
 
     def sigmoid(self, function):
         return 1/(1 + np.exp(-function))
+    
+    def tanh(self, function):
+        return np.tanh(function)
