@@ -3,6 +3,9 @@ import numpy as np
 class layer:
     def __init__(self):
         pass
+    
+    def linear(self, function):
+        return function
 
     def ReLU(self, function):
         return np.maximum(0, function)
